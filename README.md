@@ -147,7 +147,7 @@ The dashboard shares the customer site's palette but reads denser, with a monosp
 ---
 
 <details>
-<summary><h2 style="display:inline">Architecture — the load-bearing decisions</h2></summary>
+<summary><strong>Architecture — the load-bearing decisions</strong> (click to expand)</summary>
 
 <br>
 
