@@ -12,7 +12,7 @@ Next.js 16 (App Router) · React 19 · Prisma 7 · PostgreSQL · Auth.js v5 · L
 
 ## Live demo
 
-(https://elan-studios-poorav-sharma.vercel.app/)
+**[elan-studios-poorav-sharma.vercel.app](https://elan-studios-poorav-sharma.vercel.app/)**
 
 Admin sign-in at `/admin/login`
 
