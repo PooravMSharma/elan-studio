@@ -204,6 +204,7 @@ model Customer {
   phone String
   email String?
   notes String?
+  whatsappOptIn Boolean @default(true)
 
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
