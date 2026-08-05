@@ -14,7 +14,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "postinstall": "prisma generate"
   },
   "devDependencies": {
     "@types/bcryptjs": "^2.4.6",
