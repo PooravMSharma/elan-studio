@@ -142,7 +142,7 @@ The dashboard shares the customer site's palette but reads denser, with a monosp
 
 ### 4. Automations — the sweep
 
-`vercel.json` runs `/api/cron/sweep` every 15 minutes. The sweep (`lib/notifications/sweep.ts`) picks up due `NotificationJob` rows, resolves template variables against the appointment's *current* state, sends via the configured sender, and records the outcome. `lib/notifications/abandoned.ts` chases stalled drafts. Élan never calls Meta directly — the sender posts to an existing WhatsApp platform that owns tokens and the 24-hour window.
+vercel.json runs /api/cron/sweep daily — Vercel's free tier caps cron frequency. Production would use Pro or an external scheduler hitting the endpoint every 15 minutes with CRON_SECRET.
 
 ---
 
